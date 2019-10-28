@@ -1,0 +1,72 @@
+/* general */
+body {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.m-serrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-dark-blue {
+    background-color: #2c3e50;
+}
+
+.bg-green {
+    background-color: #1abc9c;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-black {
+    background-color: #1a252f;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.text-dark {
+    color: #130F0F;
+}
+
+/* header */
+header {
+    height: 104px;
+}
+
+header .col-lg-6 {
+    line-height: 104px;
+    font-weight: bold;
+}
+
+header .col-lg-6:first-child {
+    font-size: 28px;
+}
+
+header .col-lg-6:last-child {
+    font-size: 16px;
+}
+
+header .col-lg-6:last-child li {
+    padding: 0 16px;
+}
+
+header .col-lg-6:last-child a:hover {
+    color: #1abc9c;
+}
