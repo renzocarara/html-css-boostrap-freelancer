@@ -45,28 +45,56 @@ a:hover {
     color: #130F0F;
 }
 
+.text-white {
+    color: #ffffff;
+}
+
 /* header */
 header {
     height: 104px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 
-header .col-lg-6 {
+header #left {
     line-height: 104px;
     font-weight: bold;
 }
 
-header .col-lg-6:first-child {
+header #left {
     font-size: 28px;
 }
 
-header .col-lg-6:last-child {
+header #right {
+    line-height: 104px;
     font-size: 16px;
 }
 
-header .col-lg-6:last-child li {
+header #right:last-child li {
     padding: 0 16px;
 }
 
-header .col-lg-6:last-child a:hover {
+header #right a:hover {
     color: #1abc9c;
+}
+
+#right button {
+    /* allineo il bottone verticalmente con del margine */
+    margin-top: 35px;
+    border: 1px solid #1abc9c;
+    font-size: 13px;
+}
+
+/* jumbo */
+#jumbo {
+    padding-top: 104px;
+}
+
+/* diminusco il font-size del logo sotto i 992px */
+@media screen and (max-width:991px) {
+    header #left {
+        font-size: 20px;
+    }
 }
