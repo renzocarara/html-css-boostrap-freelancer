@@ -38,16 +38,32 @@ a:hover {
     background-color: #1a252f;
 }
 
+.text-dark-blue {
+    color: #2c3e50;
+}
+
 .text-grey {
     color: grey;
 }
 
-.text-dark {
-    color: #130F0F;
-}
-
 .text-white {
     color: #ffffff;
+}
+
+.divider {
+    margin: 20px 0 24px 0;
+}
+
+.divider-star {
+    display: inline-block;
+    font-size: 32px;
+}
+
+.divider-line {
+    display: inline-block;
+    width: 112px;
+    height: 4px;
+    border-right: 2px;
 }
 
 /* header */
@@ -108,29 +124,41 @@ header #right a:hover {
     font-size: 24px;
 }
 
-#jumbo .divider {
-    margin: 20px 0 24px 0;
-}
-
 #jumbo i {
     margin: 0 10px;
     font-size: 32px;
     display: inline-block;
 }
 
-.divider-star {
-    display: inline-block;
+#portfolio h1 {
+    font-size: 48px;
 }
 
-.divider-line {
-    display: inline-block;
-    width: 112px;
-    height: 4px;
-    border-right: 2px;
+#portfolio {
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
-/* diminusco il font-size del logo sotto i 992px */
+#portfolio img {
+    border-radius: 10px;
+    max-width: 350px;
+    max-height: 253px;
+    margin-bottom: 30px;
+}
+
+/* *********** */
+/* media query */
+/* *********** */
+@media screen and (max-width:1199px) {
+    #portfolio img {
+        max-width: 290px;
+        max-height: 210px;
+    }
+}
+
 @media screen and (max-width:991px) {
+
+    /* diminusco il font-size del logo sotto i 992px */
     header #left {
         font-size: 20px;
         padding-right: 0;
@@ -159,4 +187,15 @@ header #right a:hover {
     #jumbo p {
         font-size: 20px;
     }
+
+    #portfolio img {
+        max-width: 330px;
+        max-height: 238px;
+    }
 }
+
+@media screen and (max-width:767px) {
+    #portfolio img {
+        max-width: 400px;
+        max-height: 289px;
+    }
