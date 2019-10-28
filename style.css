@@ -1,6 +1,7 @@
 /* general */
 body {
     color: white;
+    text-align: center;
 }
 
 a {
@@ -81,20 +82,81 @@ header #right a:hover {
 }
 
 #right button {
-    /* allineo il bottone verticalmente con del margine */
-    margin-top: 35px;
-    border: 1px solid #1abc9c;
+    border: 1px soli#1abc9c;
     font-size: 13px;
+    /* allineo il bottone verticalmente con del margine */
+    margin-top: 18px;
 }
 
 /* jumbo */
 #jumbo {
-    padding-top: 104px;
+    padding-top: 200px;
+    padding-bottom: 96px;
+}
+
+#jumbo img {
+    width: 240px;
+    height: 256px;
+    margin-bottom: 48px;
+}
+
+#jumbo h1 {
+    font-size: 64px;
+}
+
+#jumbo p {
+    font-size: 24px;
+}
+
+#jumbo .divider {
+    margin: 20px 0 24px 0;
+}
+
+#jumbo i {
+    margin: 0 10px;
+    font-size: 32px;
+    display: inline-block;
+}
+
+.divider-star {
+    display: inline-block;
+}
+
+.divider-line {
+    display: inline-block;
+    width: 112px;
+    height: 4px;
+    border-right: 2px;
 }
 
 /* diminusco il font-size del logo sotto i 992px */
 @media screen and (max-width:991px) {
     header #left {
+        font-size: 20px;
+        padding-right: 0;
+        line-height: 74px;
+    }
+
+    header #right {
+        padding: 0;
+        line-height: 74px;
+    }
+
+    /* faccio l'header più stretto */
+    header {
+        height: 74px;
+    }
+
+    /* aggiusto padding quando dimunisice l'altezza dell'header da 104px a 74px */
+    #jumbo {
+        padding-top: 170px;
+    }
+
+    #jumbo h1 {
+        font-size: 44px;
+    }
+
+    #jumbo p {
         font-size: 20px;
     }
 }
