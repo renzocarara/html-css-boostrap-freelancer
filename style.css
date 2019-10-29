@@ -193,6 +193,12 @@ header #right a:hover {
     padding: 20px 30px;
 }
 
+#contact-form button:hover {
+    color: #ffffff;
+    background-color: #159a80;
+    border-color: #148f77;
+}
+
 /* footer */
 /* *********** */
 /* media query */
