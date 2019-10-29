@@ -200,6 +200,23 @@ header #right a:hover {
 }
 
 /* footer */
+footer h4 {
+    font-size: 24px;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer .col-md-4:last-child a {
+    color: #1abc9c;
+}
+
+footer .col-md-4:last-child a:hover {
+    color: #148f77;
+    text-decoration: underline;
+}
+
 /* *********** */
 /* media query */
 /* *********** */
