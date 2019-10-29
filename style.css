@@ -66,6 +66,15 @@ a:hover {
     border-right: 2px;
 }
 
+.section-spacer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.h1-bigger {
+    font-size: 48px;
+}
+
 /* header */
 header {
     height: 104px;
@@ -130,15 +139,7 @@ header #right a:hover {
     display: inline-block;
 }
 
-#portfolio h1 {
-    font-size: 48px;
-}
-
-#portfolio {
-    padding-top: 96px;
-    padding-bottom: 96px;
-}
-
+/* portfolio */
 #portfolio img {
     border-radius: 10px;
     max-width: 350px;
@@ -146,6 +147,44 @@ header #right a:hover {
     margin-bottom: 30px;
 }
 
+/* about */
+#about i {
+    margin-right: 12px;
+}
+
+#about button {
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 22px;
+    padding: 20px 35px;
+}
+
+#about button:hover {
+    background-color: #f8f9fa;
+    color: #212529;
+    border-color: #f8f9fa;
+}
+
+#about p {
+    font-size: 20px;
+    /* font-weight: bold; */
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+/* contact */
+#contact {
+    font-size: 26px;
+    color: gray;
+    text-align: left;
+}
+
+#contact button {
+    padding: 20px 30px;
+}
+
+/* footer */
 /* *********** */
 /* media query */
 /* *********** */
@@ -196,6 +235,7 @@ header #right a:hover {
 
 @media screen and (max-width:767px) {
     #portfolio img {
-        max-width: 400px;
-        max-height: 289px;
+        max-width: 290px;
+        max-height: 210px;
     }
+}
