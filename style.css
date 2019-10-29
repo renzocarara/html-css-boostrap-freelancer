@@ -55,11 +55,13 @@ a:hover {
 }
 
 .divider-star {
+    vertical-align: middle;
     display: inline-block;
     font-size: 32px;
 }
 
 .divider-line {
+    vertical-align: middle;
     display: inline-block;
     width: 112px;
     height: 4px;
