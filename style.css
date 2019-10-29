@@ -148,10 +148,6 @@ header #right a:hover {
 }
 
 /* about */
-#about i {
-    margin-right: 12px;
-}
-
 #about button {
     border-radius: 10px;
     border: 2px solid white;
@@ -177,10 +173,23 @@ header #right a:hover {
 #contact {
     font-size: 26px;
     color: gray;
+}
+
+#contact-form input, #contact-form textarea {
+    border: 0;
+}
+
+#contact-form {
     text-align: left;
 }
 
-#contact button {
+.field-container {
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#contact-form button {
     padding: 20px 30px;
 }
 
